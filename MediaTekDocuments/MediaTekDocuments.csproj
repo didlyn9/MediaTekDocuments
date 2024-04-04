@@ -36,6 +36,7 @@
     <Reference Include="BouncyCastle.Crypto, Version=1.8.5.0, Culture=neutral, PublicKeyToken=0e99375e54769942" />
     <Reference Include="Google.Protobuf, Version=3.19.4.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604" />
     <Reference Include="K4os.Compression.LZ4.Streams, Version=1.2.6.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d" />
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
     <Reference Include="MySql.Data, Version=8.0.29.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
     <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
@@ -138,6 +139,12 @@
     <Compile Include="model\Service.cs" />
     <Compile Include="model\Suivi.cs" />
     <Compile Include="model\Utilisateur.cs" />
+    <Compile Include="Tests\AbonnementTests.cs" />
+    <Compile Include="Tests\CommandeTests.cs" />
+    <Compile Include="Tests\CommandeDocumentTests.cs" />
+    <Compile Include="Tests\ExemplaireTests.cs" />
+    <Compile Include="Tests\SuiviTests.cs" />
+    <Compile Include="Tests\UtilisateurTests.cs" />
     <Compile Include="view\FrmConnexion.cs">
       <SubType>Form</SubType>
     </Compile>
